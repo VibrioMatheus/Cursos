@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  padding: 25px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: .8rem;
+  align-items: center;
+}
+
+ul li:last-child {
+  background-color: purple;
+  border-radius: 30px;
+  color: white;
+  padding: .8rem;
+}

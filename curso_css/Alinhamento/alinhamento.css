@@ -1,0 +1,30 @@
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  /* Se nao caber em uma linha vai jogar para baixo*/
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: flex-end;
+}
+
+.item:nth-child(1) {
+  order: 1
+}
+
+.container {
+  display: flex;
+  border: 1px solid red;
+  height: 30vh;
+}
+
+.item {
+  background-color: aqua;
+  /* Deixando como flex sizing para preencher o espaço do conteiner*/
+  flex-basis: 90px;
+
+
+}
+
+.container div:nth-child(3) {
+  flex-grow: 1;
+}
